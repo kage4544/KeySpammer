@@ -2,11 +2,11 @@ import keyboard, time
 
 while True:
     
-    print("Key to Spam :")
-    KeySpam = input()
-    print("Key to Stop :")
-    KeyStop = input()
-    if KeySpam == KeyStop :
+    print("Key to Spam :f")
+    KeySpam = input(f)
+    print("Key to Stop :f")
+    KeyStop = input(f)
+    if KeySpam == KeyStop :f
         print("Same key")
         continue
     else:
